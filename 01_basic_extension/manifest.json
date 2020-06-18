@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Basic Extension",
+    "description": "Does basic things.",
+    "version": "1.0",
+    "icons": {
+		"128": "icons/icon128.png",
+		"48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+
+    // Load script when URL matches a pattern
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["borderify.js"]
+      }
+    ]
+}

@@ -6,4 +6,4 @@ Will implement:
 * A context script (injected into webpages)
 
 Following tutorial from mozilla.org:
-* https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+* [Your_first_WebExtension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)

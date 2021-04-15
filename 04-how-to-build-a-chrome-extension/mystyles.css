@@ -1,0 +1,28 @@
+.spin, .lnXdpd, .octicon-mark-github  {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+
+/* Buttons */
+
+#first {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#second {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}

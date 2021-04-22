@@ -1,5 +1,7 @@
-# firefox-extension-practice
+# browser-extension-practice
 
-Cross-browser extensions are possible.
+Using the WebExtensions API/standard.
 
-Chrome extensions can be loaded into FireFox with minimal or no changes.
+To load and debug an extension, go to:
+* about:debugging#/runtime/this-firefox for FireFox
+* chrome://extensions/ for Chrome

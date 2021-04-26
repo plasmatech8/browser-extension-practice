@@ -16,3 +16,18 @@ Although, for browser extensions, you will still need to build and refresh in th
 To look into:
 * snowpack
 * webextension-polyfill
+
+## Notes
+
+`parcel-plugin-web-ext-tool` can be installed to allow parcel to integrate with web-ext.
+
+Although, I believe it uses parcel v1.
+
+Also, parcel appears to be creating non-terminating processes for my machine for some reason.
+
+Command:
+```
+npx parcel popup.html content.ts background.ts  manifest.json --no-source-maps
+```
+
+I think I might try Webpack or Snowpack alongside Web-Ext instead.

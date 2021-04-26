@@ -21,7 +21,7 @@ To look into:
 
 `parcel-plugin-web-ext-tool` can be installed to allow parcel to integrate with web-ext.
 
-Although, I believe it uses parcel v1.
+Although, I am currently using parcel v1 which is no longer maintained. (note v2 is in alpha)
 
 Also, parcel appears to be creating non-terminating processes for my machine for some reason.
 
@@ -31,3 +31,5 @@ npx parcel popup.html content.ts background.ts  manifest.json --no-source-maps
 ```
 
 I think I might try Webpack or Snowpack alongside Web-Ext instead.
+
+It does work though, with live-refresh and all.
